@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculate subfactorial</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+	<div class="container">
+		<h2>Be familiar with factorial and subfactorial</h2>
+		<h1>SUBFACTORIAL</h1>
+		<div class="row">
+			<div class="col-md-1">
+				<div><img id="logo" src="img/subfacpic.jpg" alt="subfactorial"></div>
+			</div>
+			<div class="col-md-11"></div>
+
+		</div>
+		<div class="row">
+
+			<h3>Calculate subfactorial</h3>
+		</div>
+		<div class="row">
+			<p style="font-size: large; font-style: bold-italic;color: darkgoldenrod; ">Input a integer betveen 0 and 170.
+			</p>
+		</div>
+
+		<div class="row">
+			<label for="fname">Pick number n for calculetion</label>
+		</div>
+		<div class="row">
+			<input type="nomber" id="facsn" placeholder="integer here.." min="0" max="170">
+			<button id="calcsf" onclick="myFunction(event)">calc.</button>
+		</div>
+		<div class="row">
+			<p id="demo" style="font-size: larger; color: darkred;"></p>
+		</div>
+		<div class="row">
+			<p id="resultsfnxe"></p>
+		</div>
+		<div>
+			<p id="resultsfnxor"></p>
+		</div>
+		<div>
+			<p id="resultsfnx"></p>
+		</div>
+		<div>
+			<p id="resultfnx_text"></p>
+		</div>
+		<div class="row">
+			<input id="backbutton" type="button" value="Go Back" onclick="history.back(-1)" />
+		</div>
+		<div class="footer">
+			<p>Copyright 1999-2021 by Refsnes Data. All Rights Reserved.;</p>
+			<p>jbsmil63 &#174;</p>
+		</div>
+
+	</div>
+
+	<script src="js/calculatesubf.js"></script>
+
+</body>
+
+</html>
